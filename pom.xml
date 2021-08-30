@@ -40,6 +40,8 @@
         <sonar.scanner.version>3.7.0.1746</sonar.scanner.version>
         <sonar.projectKey>${project.artifactId}</sonar.projectKey>
         <sonar.exclusions>**/App.java</sonar.exclusions>
+        <sonar.coverage.exclusions>**/App.java</sonar.coverage.exclusions>
+        <sonar.jacoco.excludes>**/App.java</sonar.jacoco.excludes>
     </properties>
 
     <distributionManagement>
