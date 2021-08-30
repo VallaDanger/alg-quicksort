@@ -114,7 +114,9 @@ public class App {
         
         Quicksort.sort(array);
         
-        LOGGER.info(Arrays.toString(array));
+        final String sortedArray = Arrays.toString(array);
+        
+        LOGGER.info(sortedArray);
         
     }
     
