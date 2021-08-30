@@ -38,6 +38,7 @@
         <sonar.test.inclusions>src/test/java/*</sonar.test.inclusions>
         <sonar.java.binaries>target/classes</sonar.java.binaries>
         <sonar.scanner.version>3.7.0.1746</sonar.scanner.version>
+        <sonar.projectKey>${project.artifactId}</sonar.projectKey>
     </properties>
 
     <distributionManagement>
